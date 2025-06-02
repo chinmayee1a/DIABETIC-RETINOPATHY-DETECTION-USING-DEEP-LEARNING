@@ -26,15 +26,14 @@ Tip : Make sure to install Numpy, Pandas, Matplotlib first and then proceed next
 Torch package
 Tkinter
 HeidiSQL
-Grab a cup of coffee as these will take some time !
 click here to start server in HeidiSQL and configure settings by setting username and password.
 Get, set and go :
 Download complete Project files using following command from git bash/ cmd (terminal):
-git clone https://github.com/souravs17031999/Retinal_blindness_detection_Pytorch   
+git clone https:https://github.com/chinmayee1a/DIABETIC-RETINOPATHY-DETECTION-USING-DEEP-LEARNING.git   
 
 [Note you need mainly these four things to get started :]
 
-blindness.py model.py classifier.pt send_sms.py
+blindness.py system.py classifier.pt msg.py
 
 Create a new database and table accordingly.
 Then, Go to 'blindness.py' file and change some configuration settings according to your database.
@@ -46,7 +45,7 @@ connection = sk.connect(
 )
 Now, your DB server must be connected.
 Finally, you also want 'classifier.pt' file which contains model's dictionary required when it is to be loaded.
-Download here and put that file in the same directory and then modify the path accordingly in the 'model.py' file.
+Download here and put that file in the same directory and then modify the path accordingly in the 'system.py' file.
 model = load_model('../Desktop/classifier.pt')
 
 Finally, execute your 'blindness.py' file and your GUI must start (recommended to start this from your terminal and keep all your project files in same directory).
